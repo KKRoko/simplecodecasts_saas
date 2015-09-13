@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 #Bootstrap
 gem 'bootstrap-sass', '3.3.5'
+#Font Awesome
+gem 'font-awesome-sass', '4.2.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
