@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
     :port => '587',
     :authentication => :plain,
     :user_name => ENV['SENDGRID_USERNAME'],
-    :passowrd => ENV['SENDGRID_PASSWORD'],
+    :password => ENV['SENDGRID_PASSWORD'],
     :domain => 'heroku.com',
-    :enable_startsls_auto => true
+    :enable_starttls_auto => true
 }
