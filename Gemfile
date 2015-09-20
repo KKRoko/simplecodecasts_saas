@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 
-gem 'stripe', '1.16.0'
+gem 'stripe', '1.27.0'
 # Use figaro to hide secret keys
-gem 'figaro', '1.0.0'
+gem 'figaro', '1.1.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
